@@ -1,6 +1,6 @@
 {
     "name": "go-playground-mcp",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "description": "MCP server for Go Playground integration",
     "main": "./dist/index.js",
     "bin": {
@@ -10,6 +10,10 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/samber/go-playground-mcp.git"
+    },
+    "homepage": "https://github.com/samber/go-playground-mcp",
+    "bugs": {
+        "url": "https://github.com/samber/go-playground-mcp/issues"
     },
     "scripts": {
         "build": "tsc",
