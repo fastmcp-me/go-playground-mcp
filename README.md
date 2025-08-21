@@ -30,7 +30,7 @@ Add this to your MCP client configuration:
   "mcpServers": {
     "go-playground": {
       "command": "npx",
-      "args": ["go-playground-mcp"]
+      "args": ["-y", "go-playground-mcp"]
     }
   }
 }
@@ -80,8 +80,7 @@ Add this to your MCP client configuration:
   "mcpServers": {
     "go-playground": {
       "command": "node",
-      "args": ["dist/index.js"],
-      "env": {}
+      "args": ["dist/index.js"]
     }
   }
 }

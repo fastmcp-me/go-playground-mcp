@@ -7,6 +7,10 @@
         "go-playground-mcp": "./dist/index.js"
     },
     "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/samber/go-playground-mcp.git"
+    },
     "scripts": {
         "build": "tsc",
         "start": "node dist/index.js",
